@@ -1,6 +1,6 @@
 // Import stylesheets
-import './style.css';
+//import './style.css';
 
 // Write Javascript code!
-const appDiv = document.getElementById('app');
+const appDiv = document.querySelector('body');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
