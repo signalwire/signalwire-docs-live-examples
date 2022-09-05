@@ -5,7 +5,6 @@ import * as SignalWire from '@signalwire/js'
 const btnJoin = document.getElementById('btnJoin')
 const btnLeave = document.getElementById('btnLeave')
 const inCallControls = document.getElementById('inCallControls')
-//const btnStartPlayback = document.getElementById('btnStartPlayback')
 const btnRewind = document.getElementById('btnRewind')
 const btnBack = document.getElementById('btnBack')
 const btnPause = document.getElementById('btnPause')
