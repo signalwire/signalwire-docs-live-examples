@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Playback</title>
+  </head>
+  <body>
+    <div id="myVideoElement"></div>
+    <button id="btnJoin">Join</button>
+    <div id="inCallControls" style="display: none">
+      <div>
+        <div>URL to play:</div>
+        <input type="text" id="playbackUrl" value="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" />
+      </div>
+      <div>
+        <button id="btnRewind">⏮</button>
+        <button id="btnBack">⏪</button>
+        <button id="btnPause">⏸</button>
+        <button id="btnPlay">▶️</button>
+        <button id="btnForward">⏩</button>
+        <button id="btnStop">⏹</button>
+      </div>
+      <div>
+        <button id="btnLeave">Leave</button>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
