@@ -37,8 +37,8 @@ async function onJoinClicked() {
  * Leaves the room.
  */
 async function onLeaveClicked() {
-  await roomSession.leave()
-  screenShare = null
+  await roomSession?.leave()
+  playback = null
   btnJoin.style.display = 'block'
   inCallControls.style.display = 'none'
 }
