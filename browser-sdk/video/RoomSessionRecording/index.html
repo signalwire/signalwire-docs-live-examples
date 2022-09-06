@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Recording</title>
+  </head>
+  <body>
+    <div id="myVideoElement"></div>
+    <button id="btnJoin">Join</button>
+    <div id="inCallControls" style="display: none">
+      <div>
+        <button id="btnRecord" title="Record">⏺</button>
+        <button id="btnPause" title="Pause">⏸</button>
+        <button id="btnStop" title="Stop">⏹</button>
+        <span>Status: </span><span id="currentStatus"></span>
+      </div>
+      <div>
+        <button id="btnLeave">Leave</button>
+      </div>
+      <div>
+        <div>Logs:</div>
+        <div id="logs"></div>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
